@@ -63,7 +63,10 @@ export default function AIOptimizerDashboard() {
         {/* Live Terminal Log */}
         <div className="col-span-2 bg-black/50 rounded-xl border border-green-800 p-4 font-mono text-xs h-48 overflow-hidden flex flex-col">
           <div className="border-b border-green-900 pb-2 mb-2 flex justify-between">
-            <span>>_ ROOT_ACCESS_GRANTED</span>
+            <div className="border-b border-green-900 pb-2 mb-2 flex justify-between">
+              <span>&gt;_ROOT_ACCESS_GRANTED</span>
+              <span className="animate-pulse">&gt; Live</span>
+            </div>
             <span className="animate-pulse">● Live</span>
           </div>
           <div className="flex-1 space-y-2 overflow-y-auto no-scrollbar">
