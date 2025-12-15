@@ -1,0 +1,8 @@
+{
+  "name": "Copy of HyperGrow AI Coach",
+  "description": "A high-performance, neon-styled SaaS AI Coaching & Marketing platform featuring Deep Thinking AI (Gemini 3 Pro), Lead Generation, CRM, and automated growth strategies.",
+  "requestFramePermissions": [
+    "geolocation",
+    "microphone"
+  ]
+}
